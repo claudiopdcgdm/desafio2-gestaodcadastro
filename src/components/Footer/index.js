@@ -6,6 +6,10 @@ export default function Footer() {
         <S.Container>
             <S.Allrigths>Simple Landing Page for Test Gama Academy</S.Allrigths>
             <S.Allrigths>Developer by Claudio Morais</S.Allrigths>
+            <S.Allrigths>
+                Dados obtidos da api 'http://claudiopdcgdm.pythonanywhere.com/api/data-produtos/' são meramente ilustrativos
+            </S.Allrigths>
+            
         </S.Container>
     )
 }

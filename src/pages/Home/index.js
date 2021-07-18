@@ -42,7 +42,7 @@ export default function Home() {
     return (
         <S.Container>
             <Slider/>
-            <S.Content>
+               <S.Content>
                 {
                     products.map((product) => {
                         let price = product.preco_marketing
