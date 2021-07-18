@@ -14,6 +14,7 @@ export const Menu = styled.span`
     margin: 15px 5px 10px 5px;
 
     &:hover{
+        cursor: pointer;
         opacity: 0.5;
     }
 `
