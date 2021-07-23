@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import { FiShoppingCart,FiMail } from "react-icons/fi";
+import {Link} from 'react-router-dom'
 
 
 export  const Header = styled.div`
@@ -97,4 +98,17 @@ export const Login = styled.span`
         /* color:#64df3e */
     }
  `
+
+export const Admin = styled(Link)`
+    font-size: 15px;
+    color: #fff;
+    margin-left: 0.74rem;
+    text-decoration:none;
+    cursor: pointer;
+
+    &:hover{
+        opacity: 0.5;
+        /* color:#64df3e */
+    }
+`
  

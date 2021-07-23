@@ -3,6 +3,9 @@ import Slider from '../../components/Slider'
 import * as S from './styled'
 import api from '../../services/api'
 import Footer from '../../components/Footer'
+import Promotional from '../../components/Promotional'
+import Header from '../../components/Header'
+import Navibar from '../../components/Navibar'
 
 export default function Home() {
     
@@ -41,6 +44,9 @@ export default function Home() {
 
     return (
         <S.Container>
+            <Promotional/>
+            <Header/>
+            <Navibar/>
             <Slider/>
                <S.Content>
                 {

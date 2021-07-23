@@ -5,6 +5,7 @@ import { toast } from 'react-toastify'
 
 
 
+
 export default function Header() {
 
     const [email, setEmail] = useState('')
@@ -53,6 +54,8 @@ export default function Header() {
                 <S.Car color="#fff" size={20} onClick={() => alert('not implemented')} />
                 <S.Login onClick={()=> alert('Not implemented')} >Cadastre-se</S.Login>
                 <S.Login onClick={()=> alert('Not implemented')} >Login</S.Login>
+                <S.Admin to='/admin' >Admin</S.Admin>
+                
             </S.Nav>
 
        </S.Header>
