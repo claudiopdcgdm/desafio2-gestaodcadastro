@@ -8,9 +8,11 @@ does not require installation
 
 access site 
 
-<a>https://claudiomorais.netlify.app/admin</a>
+<a>https://claudiomorais.netlify.app/</a>
 
 ## Usage
+
+* click in option admin access page admin from site
 
 * click in client button for register new client or access sidebar (menu)
 
