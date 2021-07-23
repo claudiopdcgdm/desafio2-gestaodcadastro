@@ -13,8 +13,7 @@ import { IconContext } from 'react-icons/lib'
 export default function Sidebar() {
     
     const [sidebar, setSidebar] = useState(false)
-    const [user, setUser] = useState('Test User')
-
+    
     const showSidebar = () => setSidebar(!sidebar)
 
 
@@ -28,7 +27,7 @@ export default function Sidebar() {
                     </S.NavIcon>
                     <S.AreaNavItem>
                         <S.NavWelcome>User Loged: </S.NavWelcome>
-                        <S.NavNameUser>{user} </S.NavNameUser>
+                        <S.NavNameUser>Test User</S.NavNameUser>
                     </S.AreaNavItem>
                 </S.Nav>
                 <S.SidebarNav sidebar={sidebar} >

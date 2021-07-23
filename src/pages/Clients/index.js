@@ -84,11 +84,6 @@ export default function Clients() {
                                 </tr>
                             )
                         })}
-                        
-                          
-                            
-                            
-                        
                     </tbody>
                 </Table>
 
