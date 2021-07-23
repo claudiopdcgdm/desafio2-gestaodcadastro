@@ -55,9 +55,7 @@ export default function Header() {
                 <S.Login onClick={()=> alert('Not implemented')} >Cadastre-se</S.Login>
                 <S.Login onClick={()=> alert('Not implemented')} >Login</S.Login>
                 <S.Admin to='/admin' >Admin</S.Admin>
-                
             </S.Nav>
-
        </S.Header>
     )
 }

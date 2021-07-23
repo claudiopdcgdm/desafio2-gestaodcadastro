@@ -17,16 +17,6 @@ export default function Clients() {
         
     }
 
-    //Edit user in locaStorage
-    function handleEdit(){
-        alert('teste')
-    }
-
-    //Delete user in localstorage
-    function handleDelete(){
-        alert('teste')
-    }
-
 
     useEffect(() => {
         function loadDatas(){
@@ -63,7 +53,6 @@ export default function Clients() {
                             <th>CPF</th>
                             <th>Email</th>
                             <th>Endereco</th>
-                            <th>Ações</th>
                         </tr>
                     </thead>
                     <tbody style={{fontSize:13}}>
@@ -77,17 +66,15 @@ export default function Clients() {
                                     <td> {item.cpf} </td>
                                     <td> {item.email} </td>
                                     <td> {item.address} </td>
-                                    <td>
+                                    {/* <td>
                                         <S.ButtonEdit onClick={handleEdit}/>
                                         <S.ButtonDelete onClick={handleDelete} />
-                                    </td>
+                                    </td> */}
                                 </tr>
                             )
                         })}
                     </tbody>
                 </Table>
-
-               
             </S.Content>
         </S.Container>
     )

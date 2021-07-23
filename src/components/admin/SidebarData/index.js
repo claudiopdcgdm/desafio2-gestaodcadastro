@@ -16,7 +16,7 @@ export const SidebarData = [
     {
         title: 'Clientes',
         path:'/admin/clientes',
-        icon: <AiIcons.AiFillHome />,
+        icon: <AiIcons.AiOutlineUser />,
         iconClosed: <RiIcons.RiArrowDownSFill/>,
         iconOpend: <RiIcons.RiArrowUpFill/>,
         
@@ -25,7 +25,7 @@ export const SidebarData = [
     {
         title: 'Produtos',
         path:'/admin/products',
-        icon: <AiIcons.AiFillHome />,
+        icon: <AiIcons.AiFillBoxPlot />,
         iconClosed: <RiIcons.RiArrowDownSFill/>,
         iconOpend: <RiIcons.RiArrowUpFill/>,
         // subNav:[

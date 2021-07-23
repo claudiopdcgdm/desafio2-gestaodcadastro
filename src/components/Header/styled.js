@@ -79,7 +79,7 @@ export const Car = styled(FiShoppingCart)`
 export const Email = styled(FiMail)`
     margin-top:10px;
     color:#000;
-    font-size:27px ;
+    font-size:36px ;
     z-index: 1;
     background-color: #fff;
     border-bottom-left-radius: 6px;
